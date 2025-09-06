@@ -1,0 +1,11 @@
+# Runtime dependencies
+mcp[cli]>=1.0.0        # MCP Python SDK
+asyncio                # For async server/client handling
+uvicorn                # Optional, to run async MCP commands
+requests               # Client and integration test requests
+
+# Dev / Testing
+pytest                 # Test runner
+pytest-asyncio         # Async support for pytest
+black                  # Code formatter
+flake8                 # Linter
